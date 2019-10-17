@@ -57,8 +57,8 @@ public class MylistAdapter extends RecyclerView.Adapter<MylistAdapter.MyViewHold
 
         public MyViewHolder(View view) {
             super(view);
-            textView1 = view.findViewById(R.id.coname);
-            textView2 = view.findViewById(R.id.shname);
+            textView1 = view.findViewById(R.id.co_name);
+            textView2 = view.findViewById(R.id.sh_name);
         }
 
         public void bindData(CountryModelClass country) {
